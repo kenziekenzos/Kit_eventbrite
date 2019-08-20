@@ -2547,6 +2547,8 @@ textarea.form-control {
   }
 }
 
+
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -3199,6 +3201,14 @@ fieldset:disabled a.btn {
 
 .btn-block + .btn-block {
   margin-top: 0.5rem;
+}
+
+
+#en_bas {
+  display: flex;
+  align-self: flex-end;
+
+  height: 100%;
 }
 
 input[type="submit"].btn-block,
